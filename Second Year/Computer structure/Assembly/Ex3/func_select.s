@@ -1,4 +1,4 @@
-	#207651027 Tomer Hadar
+	# Tomer Hadar
 .section .rodata
 #formats for printing the right message every case.
 format_char: .string " %c"
