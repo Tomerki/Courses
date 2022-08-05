@@ -1,8 +1,6 @@
 #include "ex5.h"
 /***********************
 * Tomer Hadar 
-* 207651027
-* 01
 * ex5
 ***********************/
 int isEmptyList(courses_t courseList[], int class);
