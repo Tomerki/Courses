@@ -1,6 +1,6 @@
 /*
  * CLI.h
- * Authors: Noa Amit 315231274 & Tomer Hadar 207651027
+ * Authors: Noa Amit & Tomer Hadar
  */
 #ifndef CLI_H_
 #define CLI_H_
