@@ -4,8 +4,6 @@ int indexG;
 
 /******
 Name: Tomer Hadar
-ID: 207651027
-Group 01
 ass3
 ******/
 
