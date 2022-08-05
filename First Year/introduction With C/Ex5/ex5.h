@@ -14,8 +14,6 @@
 #define TRUE 1 
 /***********************
 *Tomer Hadar
-* 207651027
-* 01
 * ex5
 ***********************/
 //struct for student- with grade his name and pointer to the next student
