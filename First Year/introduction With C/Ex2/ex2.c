@@ -3,8 +3,6 @@
 
 /*
 tomer hadar
-207651027
-01
 ex2/ass2
 */
 
