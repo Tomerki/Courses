@@ -1,6 +1,6 @@
 /*
  * timeseries.h
- * Authors: Noa Amit 315231274 & Tomer Hadar 207651027
+ * Authors: Noa Amit & Tomer Hadar
  */
 #ifndef TIMESERIES_H_
 #define TIMESERIES_H_
