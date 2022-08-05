@@ -1,6 +1,3 @@
-//
-// Created by asraf on 07/10/2020.
-//
 
 #ifndef MAIN_C_EX4_H
 #define MAIN_C_EX4_H
