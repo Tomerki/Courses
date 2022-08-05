@@ -1,4 +1,4 @@
-	#207651027 Tomer Hadar
+	# Tomer Hadar
 .section .rodata 
 format_invalid: .string "invalid input!\n"
 .text
