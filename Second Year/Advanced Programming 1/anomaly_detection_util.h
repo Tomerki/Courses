@@ -1,6 +1,6 @@
 /*
  * anomaly_detection_util.h
- * Authors: Noa Amit 315231274 & Tomer Hadar 207651027
+ * Authors: Noa Amit & Tomer Hadar
  */
 #ifndef ANOMALYDETECTORUTIL_H_
 #define ANOMALYDETECTORUTIL_H_
