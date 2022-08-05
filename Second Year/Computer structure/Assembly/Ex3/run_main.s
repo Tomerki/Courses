@@ -1,4 +1,4 @@
-	#207651027 Tomer Hadar
+	# Tomer Hadar
 .section .rodata 
 format_int_len: .string "%d"            #format for reciving a number from the user.
 format_pstring: .string "%s"            #format for reciving a string from the user.
