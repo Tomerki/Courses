@@ -2,8 +2,6 @@ import sys
 from collections import defaultdict
 """
 Name: Tomer Hadar 
-ID: 207651027
-Group: 01
 Assignment: ex7
 """
 
