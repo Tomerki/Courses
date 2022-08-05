@@ -1,6 +1,6 @@
 /*
  * minCircle.h
- * Authors: Noa Amit 315231274 & Tomer Hadar 207651027
+ * Authors: Noa Amit & Tomer Hadar
  */
 #ifndef MINCIRCLE_H_
 #define MINCIRCLE_H_
