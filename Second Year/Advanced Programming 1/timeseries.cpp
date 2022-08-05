@@ -1,6 +1,6 @@
 /*
  * timeseries.cpp
- * Authors: Noa Amit 315231274 & Tomer Hadar 207651027
+ * Authors: Noa Amit & Tomer Hadar
  */
 #include "timeseries.h"
 /**
