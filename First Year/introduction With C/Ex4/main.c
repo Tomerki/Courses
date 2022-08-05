@@ -1,6 +1,4 @@
-//
-// Created by asraf on 09/11/2020.
-//
+//Test
 #include "ass4.h"
 void f1();
 void f2();
