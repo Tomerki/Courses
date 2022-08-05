@@ -1,4 +1,4 @@
-#207651027 Tomer Hadar   
+# Tomer Hadar   
        .file	"main2.c"
 	.text
 	.globl	even
