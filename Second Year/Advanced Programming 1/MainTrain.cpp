@@ -1,8 +1,7 @@
 /*
  * run2.cpp
  *
- *  Created on: 8 ����� 2019
- *      Author: Eli
+ * Test
  */
 
 #include <iostream>
