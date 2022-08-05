@@ -1,6 +1,4 @@
-//
-// Created by asraf on 16/11/2020.
-//
+
 
 #ifndef ASS3_H_ASS3_H
 #define ASS3_H_ASS3_H
