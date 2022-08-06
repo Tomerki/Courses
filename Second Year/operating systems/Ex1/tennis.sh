@@ -1,5 +1,5 @@
 #! /bin/bash
-#Tomer Hadar 207651027
+#Tomer Hadar
 
 game_on=true
 playerOneAmount=50
