@@ -1,4 +1,4 @@
-//207651027 Tomer Hadar
+//Tomer Hadar
 
 //macro function that defined while compiling the program and not in runtime.
 #define low(sum) (sum < 0 ? 0 : sum < 255 ? sum : 255)
