@@ -1,5 +1,5 @@
 #! /bin/bash
-#Tomer Hadar 207651027
+#Tomer Hadar
 
 Recursion() {
     countElements=$(ls -1 $1 2>/dev/null | /usr/bin/wc -l)
