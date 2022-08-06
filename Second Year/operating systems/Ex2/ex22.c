@@ -1,4 +1,4 @@
-//Tomer Hadar 207651027
+//Tomer Hadar
 #include <stdio.h>
 #include <sys/stat.h>
 #include <stdlib.h>
