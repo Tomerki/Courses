@@ -1,0 +1,44 @@
+.SingleSideChat {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 90px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.SingleSideChat_info {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.SingleSideChat:hover {
+    background-color: rgb(233, 230, 230);
+}
+
+#info_lastSeen {
+    margin-left: auto;
+    padding-left: 3%;
+}
+
+#info_name {
+    font-size: 22px;
+}
+
+#info_message {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}

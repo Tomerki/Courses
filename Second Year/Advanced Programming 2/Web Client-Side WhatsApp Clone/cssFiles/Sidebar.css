@@ -1,0 +1,44 @@
+
+/* CSS File to Desing the SideBar */
+
+.sidebar {
+    display: flex;
+    flex: 0.35;
+    flex-direction: column;
+    overflow:auto;
+    border-right: 1px solid #f6f6f6;
+    border-radius: 10px;
+}
+
+.rounded-circle {
+    width: 60px;
+    height: 60px;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#userName {
+    margin-right: auto;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+#presonPlus_button {
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.sideBarModal {
+    position: absolute;
+    width: 80%; 
+}
