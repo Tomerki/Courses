@@ -1,4 +1,4 @@
-//207651027 Tomer Hadar
+//Tomer Hadar
 #ifndef EX2_EX2_H
 #define EX2_EX2_H
 
