@@ -1,4 +1,4 @@
-//207651027 Tomer Hadar
+//Tomer Hadar
 #include "ex2.h"
 /*********
  * Function Name:
