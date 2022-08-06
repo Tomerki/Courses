@@ -1,4 +1,4 @@
-//207651027 Tomer Hadar
+//Tomer Hadar
 #include "ex1.h"
 
 /**************
