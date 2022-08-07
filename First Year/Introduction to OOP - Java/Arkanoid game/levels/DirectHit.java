@@ -8,7 +8,6 @@ import supportobjects.Velocity;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
-//207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
