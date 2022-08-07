@@ -12,7 +12,6 @@ import interfaces.HitNotifier;
 import interfaces.Sprite;
 import supportobjects.Velocity;
 import geometry.Point;
-//ID 207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
