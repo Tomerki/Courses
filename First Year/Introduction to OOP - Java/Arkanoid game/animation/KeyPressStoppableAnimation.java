@@ -2,7 +2,6 @@ package animation;
 import biuoop.DrawSurface;
 import biuoop.KeyboardSensor;
 
-//207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
