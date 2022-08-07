@@ -4,7 +4,6 @@ import biuoop.Sleeper;
 import sprites.SpriteCollection;
 import java.awt.Color;
 
-//207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
