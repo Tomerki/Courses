@@ -2,7 +2,6 @@ package sprites;
 import animation.GameLevel;
 import biuoop.DrawSurface;
 import interfaces.Sprite;
-//207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
