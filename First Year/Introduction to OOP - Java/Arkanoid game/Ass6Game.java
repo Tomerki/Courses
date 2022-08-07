@@ -1,4 +1,3 @@
-//ID
 import animation.AnimationRunner;
 import interfaces.LevelInformation;
 import levels.DirectHit;
