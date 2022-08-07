@@ -9,7 +9,6 @@ import interfaces.Sprite;
 import supportobjects.Velocity;
 
 import java.awt.Color;
-//ID 207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
