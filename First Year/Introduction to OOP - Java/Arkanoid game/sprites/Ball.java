@@ -1,5 +1,4 @@
 package sprites;
-//ID 207651027
 import animation.GameLevel;
 import biuoop.DrawSurface;
 import geometry.Line;
