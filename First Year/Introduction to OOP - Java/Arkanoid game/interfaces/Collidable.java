@@ -1,5 +1,4 @@
 package interfaces;
-//ID 207651027
 
 import geometry.Point;
 import geometry.Rectangle;
