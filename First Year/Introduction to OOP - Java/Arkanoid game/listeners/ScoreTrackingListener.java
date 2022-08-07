@@ -1,5 +1,4 @@
 package listeners;
-//ID 207651027
 
 import interfaces.HitListener;
 import sprites.Ball;
