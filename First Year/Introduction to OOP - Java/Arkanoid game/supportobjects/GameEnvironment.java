@@ -4,7 +4,6 @@ import geometry.Point;
 import interfaces.Collidable;
 import java.util.ArrayList;
 import java.util.List;
-//ID 207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
