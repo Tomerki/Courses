@@ -18,7 +18,6 @@ import supportobjects.Counter;
 import supportobjects.GameEnvironment;
 import java.awt.Color;
 import java.util.List;
-//ID 207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
