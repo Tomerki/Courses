@@ -2,7 +2,6 @@ package interfaces;
 import sprites.Block;
 import supportobjects.Velocity;
 import java.util.List;
-//207651027
 /**
  * @author TomerHadar <Tomerh1810@gmail.com>.
  */
