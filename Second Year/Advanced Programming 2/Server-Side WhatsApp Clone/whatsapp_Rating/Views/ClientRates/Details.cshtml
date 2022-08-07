@@ -1,0 +1,54 @@
+﻿@model Whatsapp_Rating.Models.ClientRate
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="AllPage"> 
+
+
+<h1>Details: </h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FeedBack)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FeedBack)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hour)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hour)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+    </dl>
+</div>
+
+<div class="detailsButtoms">
+    <a asp-action="Edit" asp-route-id="@Model?.Id"><button type="button" class="btn btn-light"> Edit </button></a> |
+    <a asp-action="Index"><button type="button" class="btn btn-secondary"> Back to List </button></a>
+</div>
+
+</div>
+

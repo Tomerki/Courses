@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Whatsapp_Rating.Models.ClientRate>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="AllPage">
+
+    <h2 class="nowAverage">
+           the avarage is:
+           @ViewBag.Average
+    </h2>
+
+    <div class="buttonPage">
+            <a asp-action="Create"><button type="button" class="btn btn-light"> Create New </button></a>
+    </div>
+
+    <div id="formSearch">
+     <form asp-action="Index" >
+         <input name="query" id="search"/>
+         <input type="submit" value="search"  />
+    </form>
+    </div>
+
+
+    <div>
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Rate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FeedBack)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hour)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rate)
+                </td>
+                <td class="tdFeedback">
+                    @Html.DisplayFor(modelItem => item.FeedBack)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hour)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"> <button type="button" class="btn btn-light"> Edit </button></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><button type="button" class="btn btn-light"> Details </button></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><button type="button" class="btn btn-light"> Delete </button></a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/html" id="template">
+        <tr>
+                <td>
+                    {name}
+                </td>
+                <td>
+                    {rate}
+                </td>
+                <td class="tdFeedback">
+                    {feedBack}
+                </td>
+                <td>
+                    {hour}
+                </td>
+                <td>
+                    {date}
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id={id}> <button type="button" class="btn btn-light"> Edit </button></a> |
+                    <a asp-action="Details" asp-route-id={id}><button type="button" class="btn btn-light"> Details </button></a> |
+                    <a asp-action="Delete" asp-route-id={id}><button type="button" class="btn btn-light"> Delete </button></a>
+                </td>
+            </tr>
+    </script>
+
+    <script src="~/js/search.js"></script>
+}

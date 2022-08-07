@@ -1,0 +1,128 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: beige;
+    background-image: url('../background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#mainBody {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.ntmTitle {
+    color: beige;
+    font-size: 60px;
+}
+
+.underNtmTitle {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#renderedBody {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn btn-light {
+    background-color: beige;
+}
+
+.buttonPage {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.AllPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px;
+    color: black;
+    background-image: url('../innerBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.IndexBody {
+    align-items: center;
+}
+
+.table {
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.form-control {
+    width: 400px;
+}
+
+.text-danger {
+    display: flex;
+    align-items: center;
+}
+
+.editForm {
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.detailsButtoms {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.tdFeedback {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.applicationLink {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: -1px 4px 20px 0px rgba(176, 203, 243, 0.7);
+    border-radius: 20px;
+}
+
+#formSearch {
+    padding-bottom: 10px;
+}
