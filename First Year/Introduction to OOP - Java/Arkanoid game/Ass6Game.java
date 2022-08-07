@@ -1,4 +1,4 @@
-//ID 207651027
+//ID
 import animation.AnimationRunner;
 import interfaces.LevelInformation;
 import levels.DirectHit;
