@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/single_side_bar"
+    android:textColor="@color/white"
+    tools:context=".ModalsActivities.loginError">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:paddingBottom="30dp"
+        android:text="@string/error"
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:paddingBottom="30dp"
+        android:text="Incorrect Username Or Password"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/buttonOkLogin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_weight="1"
+          android:backgroundTint="#526A0707"
+          android:fontFamily="sans-serif-light"
+          android:insetLeft="1dp"
+          android:insetTop="1dp"
+          android:insetRight="1dp"
+          android:insetBottom="1dp"
+          android:text="@string/ok"
+          android:textSize="24sp" />
+    </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

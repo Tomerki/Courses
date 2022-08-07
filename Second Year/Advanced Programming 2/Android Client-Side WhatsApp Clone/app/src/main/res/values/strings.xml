@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">whatsApp_clone_test</string>
+    <string name="UserName">UserName</string>
+    <string name="displayName">Display</string>
+    <string name="username">UserName</string>
+    <string name="displayname">DisplayName</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="ntm">NTM</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="click_here">Click Here</string>
+    <string name="to_login">To Login</string>
+    <string name="btn_register">Register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="btn_login">Login</string>
+    <string name="to_register">To Register</string>
+    <string name="nickname">NickName</string>
+    <string name="server">Server</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="add">ADD</string>
+    <string name="cencel">Cencel</string>
+    <string name="send">SEND</string>
+    <string name="MessagesChannel">Messages</string>
+    <string name="tomer_hadar">Tomer Hadar</string>
+    <string name="enter_your_message"><font size="20"> Enter Your Message</font></string>
+    <string name="BaseUrl">http://10.0.2.2:7288/api/</string>
+    <string name="click_to_upload_profile_picture">Click To Upload Profile Picture</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="change_password">Change Password</string>
+    <string name="account">ACCOUNT</string>
+    <string name="logout">logout</string>
+    <string name="change_picture">change picture</string>
+    <string name="exit">exit</string>
+    <string name="previous_password">PREVIOUS PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_new_password">CONFIRM NEW PASSWORD</string>
+    <string name="change">Change</string>
+    <string name="change_password_headline">Change Password</string>
+    <string name="incorrect_passwords_n_note_the_password_should_contain_only_letters_and_numbers_at_least_one_character_and_at_least_one_digit">Incorrect Passwords. \n Note - The password should contain only letters and numbers, at least one character and at least one digit.</string>
+    <string name="contact_already_exists">Contact Already Exists</string>
+    <string name="BaseUrlUser">http://10.0.2.2:7288/</string>
+</resources>

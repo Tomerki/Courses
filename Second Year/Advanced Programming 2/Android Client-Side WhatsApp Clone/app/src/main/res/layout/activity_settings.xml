@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/single_side_bar"
+    android:textColor="@color/white"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:paddingBottom="30dp"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#526A0707"
+                android:fontFamily="sans-serif-light"
+                android:insetLeft="1dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:text="@string/logout"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnChangePass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#526A0707"
+                android:fontFamily="sans-serif-light"
+                android:insetLeft="1dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:text="@string/change_password"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnExitSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#52FF0000"
+                android:fontFamily="sans-serif-light"
+                android:insetLeft="1dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:text="@string/exit"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
